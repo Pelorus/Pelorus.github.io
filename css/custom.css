@@ -1,0 +1,22 @@
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    text-align: center;
+}
+
+article {
+	margin: 0 auto;
+}
+
+header {
+	margin: 3em auto;
+}
+
+div.pricing-row {
+
+}
+
+div.pricing-row div.col {
+	margin: 0.5em 0.5em;
+	padding: 0.5em 1em;
+	border: 1px solid black;
+}

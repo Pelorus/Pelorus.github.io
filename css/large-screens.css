@@ -1,0 +1,10 @@
+body {
+	margin: 1em auto;
+	width: 75%;
+	max-width: 800;
+}
+
+div.pricing-row div.col {
+	display: inline-block;
+	width: 25%;
+}
