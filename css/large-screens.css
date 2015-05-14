@@ -1,4 +1,12 @@
-body {
+div#top-tag {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: auto;
+	display: inline;
+}
+
+div.main-container {
 	margin: 1em auto;
 	width: 75%;
 	max-width: 800;
