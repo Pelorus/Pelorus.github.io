@@ -23,6 +23,12 @@ div#top-tag {
 	height: 5em;
 	background-color: black;
 	color: white;
+	cursor: pointer;
+}
+
+a#top {
+	position: absolute;
+	top: 0;
 }
 
 ul.unpadded {
@@ -70,6 +76,14 @@ a, a:visited, a:hover, a:active {
 
 article {
 	margin: 0 auto;
+}
+
+article + article {
+	margin-top: 5em;
+}
+
+section + section {
+	margin-top: 5em;
 }
 
 header {
