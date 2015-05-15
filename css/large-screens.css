@@ -14,7 +14,7 @@ div.main-container {
 
 div.pricing-row div.col {
 	display: inline-table;
-	width: 25%;
+	max-width: 30%;
 }
 
 div.col.sml-height {
