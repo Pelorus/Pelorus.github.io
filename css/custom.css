@@ -11,6 +11,10 @@ h1, h2, h3, h4, h5 {
 	font-weight: bolder;
 }
 
+.accented-text {
+	color: #ec116d;
+}
+
 div#top-tag {
 	margin: 0 auto;
 	position: absolute;
@@ -90,6 +94,10 @@ section + section {
 	margin-top: 5em;
 }
 
+section footer {
+	margin: 0 auto;
+}
+
 header {
 	margin: 3em auto;
 }
@@ -115,11 +123,12 @@ div.team-detail div.team-member img.propic {
 	width: auto;
 }
 
-div.pricing-row ul {
+
+ul {
 	list-style-type: none;
 	padding: 0;
 }
 
-div.pricing-row ul li:before {
-	content:"> ";
+ul li:before {
+	content: "> ";
 }

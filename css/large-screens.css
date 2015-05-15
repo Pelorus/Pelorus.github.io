@@ -17,6 +17,10 @@ div.pricing-row div.col {
 	max-width: 30%;
 }
 
+section footer {
+	width: 90%;
+}
+
 div.team-detail div.team-member {
 	display: inline-table;
 	max-width: 30%;
@@ -45,11 +49,12 @@ div.team-detail div.team-member {
 	width: 20%;
 }
 
-div.team-detail div.team-member img.propic {
-	display: inline-block;
-	border-radius: 50%;
+div.team-detail div.team-member .team-member-name {
+	border-top: 1px solid #ec116d;
+	margin-bottom: 0;
 }
 
-div.team-member .team-member-name {
-	text-transform: uppercase;
+div.team-detail div.team-member img.propic {
+	display: inline-block;
+	border-radius: 50%;	
 }
