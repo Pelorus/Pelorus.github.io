@@ -17,6 +17,11 @@ div.pricing-row div.col {
 	max-width: 30%;
 }
 
+div.team-detail div.team-member {
+	display: inline-table;
+	max-width: 30%;
+}
+
 div.col.sml-height {
 	padding-bottom: 1em !important;
 }
@@ -27,4 +32,24 @@ div.col.med-height {
 
 div.col.max-height{
 	padding-bottom: 9em !important;
+}
+
+div.team-detail {
+	display: block;
+	margin-bottom: 2em;
+}
+
+div.team-detail div.team-member {
+	margin: 0.5em 0.5em;
+	padding: 0 1em;
+	width: 20%;
+}
+
+div.team-detail div.team-member img.propic {
+	display: inline-block;
+	border-radius: 50%;
+}
+
+div.team-member .team-member-name {
+	text-transform: uppercase;
 }

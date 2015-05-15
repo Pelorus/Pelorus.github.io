@@ -74,11 +74,6 @@ footer {
 	padding-bottom: 10vh;
 }
 
-
-header a, header a:visited, header a:hover, header a:active {
-	color: white;
-}
-
 a, a:visited, a:hover, a:active {
 	color: #ec116d;
 }
@@ -107,6 +102,17 @@ div.pricing-row div.col {
 	margin: 0.5em 0.5em;
 	padding: 0.5em 1em;
 	border: 1px solid black;
+}
+
+div.team-detail {
+	display: none;
+}
+
+div.team-detail div.team-member img.propic {
+	width: 90%;
+	border-radius: 50%;
+	max-height: 5em;
+	width: auto;
 }
 
 div.pricing-row ul {
