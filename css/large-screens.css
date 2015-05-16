@@ -6,6 +6,10 @@ div#top-tag {
 	display: inline;
 }
 
+header div#color-bottom {
+	background-color: black;
+}
+
 div.main-container {
 	margin: 1em auto;
 	width: 75%;
