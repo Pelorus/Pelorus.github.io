@@ -22,7 +22,6 @@ div#top-tag {
 	left: 0; 
 	bottom: 0; 
 	right: 0;
-	z-index: 100;
 	padding: 2em;
 	height: 10vh;
 	background-color: black;
@@ -55,8 +54,6 @@ header, .main-container {
 
 header {
 	position: relative;
-	height: 100vh;
-	z-index: 50;
 	padding-top: 6em; /* > top tab height */
 }
 
@@ -65,8 +62,12 @@ header div#color-bottom {
 	bottom: 2em;
 	left: 0;
 	height: 10vh;
-	background-color: white;
+	background-color: black;
 	width: 100%;
+	display: none;
+}
+
+header hr#mobile-divider {
 }
 
 footer {

@@ -2,12 +2,23 @@ div#top-tag {
 	position: fixed;
 	top: 0;
 	left: 0;
+	height: 10vh;
 	right: auto;
 	display: inline;
+	z-index: 100;
+}
+
+header {	
+	height: 100vh;
 }
 
 header div#color-bottom {
-	background-color: black;
+	display: block !important;
+	height: ;
+}
+
+header hr#mobile-divider {
+	display: none;
 }
 
 div.main-container {
