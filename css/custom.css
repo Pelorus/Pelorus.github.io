@@ -131,8 +131,8 @@ ul {
 }
 
 div#icon img {
-	margin-top: 10vh;
-	max-height: 10vh;
+	margin-top: 2em;
+	max-height: 5em;
 }
 
 ul li:before {
