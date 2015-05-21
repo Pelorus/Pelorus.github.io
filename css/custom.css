@@ -16,14 +16,11 @@ h1, h2, h3, h4, h5 {
 }
 
 div#top-tag {
-	margin: 0 auto;
 	position: absolute;
 	top: 0;
-	left: 0; 
-	bottom: 0; 
-	right: 0;
+	left: 0;
+	width: 100%;
 	padding: 2em;
-	height: 10vh;
 	background-color: black;
 	color: white;
 	cursor: pointer;
@@ -43,28 +40,14 @@ ul.unpadded li {
 	margin-left: 0;
 }
 
-div.main-container {
-}
-
 header, .main-container {
 	padding: 0 1em;
 	width: 100%;
-	margin: 0 auto;
 }
 
 header {
 	position: relative;
 	padding-top: 6em; /* > top tab height */
-}
-
-header div#color-bottom {
-	position: absolute;
-	bottom: 2em;
-	left: 0;
-	height: 10vh;
-	background-color: black;
-	width: 100%;
-	display: none;
 }
 
 header hr#mobile-divider {
