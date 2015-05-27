@@ -1,0 +1,67 @@
+body {
+	margin-left: 0;
+	padding-left: 0;
+	text-align: left;
+	border-bottom: 0;
+}
+
+header {
+	padding: 0.5em 1em 2em 1em;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	text-align: right;
+	height: 66vh;
+	min-height: 15em;
+	max-width: 700px;
+}
+
+header h1 {
+	font-size: 4em;
+	line-height: 1em;
+}
+
+section {
+	padding: 0.5em 1em 2em 1em;
+	max-width: 750px;
+}
+
+section + section {
+	margin-top: 0;
+}
+
+section.mobile-hide, section div.mobile-hide {
+	display: block;
+}
+
+div#team-detail {
+	margin: 1em 0 1em 0;
+}
+
+div#team-detail .team-member {
+	display: inline-block;
+	padding: 1em;
+	text-align: center;
+	height: 100%;
+	vertical-align: top;
+	width: 23%;
+	max-width: 175px;
+}
+
+div#team-detail .team-member .team-member-name {
+	display: none;
+}
+
+div#team-detail img {
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+	opacity: .75; /* this matches the opacity specified in the js hover function */
+}
+
+header, section {
+	padding-left: 4em;
+}
+
+a#top-link {
+	display: none !important;
+}
