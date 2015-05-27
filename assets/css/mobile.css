@@ -1,6 +1,11 @@
 html {
   box-sizing: border-box;
 }
+
+@viewport {
+	width: 640px;
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
