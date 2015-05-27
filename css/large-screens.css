@@ -1,0 +1,75 @@
+div#top-tag {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 10vh;
+	right: auto;
+	display: inline;
+	z-index: 100;
+}
+
+header {	
+	height: 100vh;
+}
+
+header div#color-bottom {
+	display: block !important;
+	height: ;
+}
+
+header hr#mobile-divider {
+	display: none;
+}
+
+div.main-container {
+	margin: 1em auto;
+	width: 75%;
+	max-width: 800;
+}
+
+div.pricing-row div.col {
+	display: inline-table;
+	max-width: 30%;
+}
+
+section footer {
+	width: 90%;
+}
+
+div.team-detail div.team-member {
+	display: inline-table;
+	max-width: 30%;
+}
+
+div.col.sml-height {
+	padding-bottom: 1em !important;
+}
+
+div.col.med-height {
+	padding-bottom: 3em !important;
+}
+
+div.col.max-height{
+	padding-bottom: 9em !important;
+}
+
+div.team-detail {
+	display: block;
+	margin-bottom: 2em;
+}
+
+div.team-detail div.team-member {
+	margin: 0.5em 0.5em;
+	padding: 0 1em;
+	width: 20%;
+}
+
+div.team-detail div.team-member .team-member-name {
+	border-top: 1px solid #ec116d;
+	margin-bottom: 0;
+}
+
+div.team-detail div.team-member img.propic {
+	display: inline-block;
+	border-radius: 50%;	
+}
